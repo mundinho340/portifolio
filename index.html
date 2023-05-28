@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #090E16;
+
+        }
+
+        header{
+            background-color: #7a4ae210;
+           position: absolute;
+            width: 1200px;
+            height: 64px;
+            left: 100px;
+            right: 110px;
+            top: 30px;
+            margin: auto;
+            border-radius: 10px;
+            display: flex;
+
+        }
+
+        .home{
+            text-decoration: underline #7B4AE2 ;
+        }
+        figure{
+            width: 400px;
+        }
+
+        figure > img{
+            align-items: center;
+        }
+        nav{
+            width: 710px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul{
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        li{
+            cursor: pointer;
+            text-decoration: none;
+            list-style: none;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: sans-serif;
+        
+        }
+
+        main{
+            margin-top: 280px;
+        }
+
+        main > section{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 100px;
+        }
+
+        #social{
+            width: 180px;
+            
+            height: 95.24px;
+            left: 140px;
+            top: 347.76px;
+
+            
+
+            color: #FFFFFF;
+        }
+        #social span{
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 800;
+            font-size: 52px;
+            line-height: 61px;
+        }
+
+        #saudacao{
+            color:  #7B4AE2;;
+        }
+        .photo1{
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            width: 450.95px;
+            height: 450.33px;
+            left: 45%;
+            top: 149.05px;
+            border-radius: 50%;
+        }
+
+        .photo2{
+            width:350px ;
+            position: absolute;
+            height: 350x;
+            border-radius: 50%;
+            left: 47.7%;
+            top:199.05px;
+
+        }
+
+        #stack{    
+            position: absolute;
+            width: 411.33px;
+            height: 37px;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+
+            color: rgba(255, 255, 255, 0.5);
+
+            transform: rotate(-0.03deg);
+        }
+        #line{   
+            position: absolute;
+            width: 100%;
+            height: 0px;
+            left: 0px;
+            top: 599px;
+            border: 1px solid rgba(123, 74, 226, 0.2);
+        }
+
+        #social_midia{
+            margin-top: 90px;
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .wtsp{
+            border: solid 1px ;
+            padding: 0px;
+            top: 0px;
+            padding: 10px;
+            color: #7B4AE2;
+            border-radius: 20%;
+        }
+
+        footer{
+            margin-top: 250px;
+            display: flex;
+            width: 800px;
+            justify-content: space-between;
+            margin-left: 20%;
+
+        }
+
+        footer h1{
+            color: white;
+            font-size: 1em;
+            margin-top: 0px;
+        }
+
+        footer  p{
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 0px;
+        }
+
+        footer div{
+            width: 206px;
+            height: 130px;
+            left: 31px;
+             border: 1px solid rgba(123, 74, 226, 0.2); 
+            border-radius: 10px;    
+            align-items: center;  
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="top-bar" class="top-bar">
+        <figure>
+            <img src="img/Logo(1).svg" alt="">
+        </figure>
+        <nav>
+            <ul>
+                <a href="">
+                    <li class="home">Home</li>
+                </a>
+                <a href="routes/sobre.html">
+                    <li class="sobre">Sobre mim</li>
+                </a>
+                <a href="routes/portifolio.html">
+                    <li class="porti">Portifolio</li>
+                </a>
+                <a href="routes/skill.html">
+                    <li class="skill">Skills</li>
+                </a>
+                <a href="routes/carreira.html">
+                    <li class="carreira">Carreira</li>
+                </a>
+                <a href="routes/recomendacao.html">
+                    <li class="recomendacao">Recomendações</li>
+                </a>
+                <a href="routes/contacto.html">
+                    <li class="contacto">Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="social">
+                <p id="saudacao">👋 Saudações!</p>
+                <span>Raimundo</span>
+                <p id="stack">full-stack developer · UI designer</p>
+
+                <div id="social_midia">
+                    <img src="img/behance.svg" alt="">
+                    <img src="img/Shape.svg" alt="">
+                    <img src="img/Group.svg" alt="">
+                </div>
+            </article>
+
+            <article id="photo" >
+                <img src="img/thumb-161948.jpg" alt="" class="photo2">
+                <img src="img/AvatarAndIcons.svg" alt="" class="photo1">
+            </article>
+
+            <article id="cv" style="color: #7B4AE2;">
+                <p>baixar cv</p>
+                <div>
+                    <img src="" alt="">
+                    <p class="wtsp">vamos conversar</p>
+                </div>
+            </article>
+            <p id="line"></p>
+        </section>
+    </main>
+    <footer>
+        <div id="dev_card">
+            <img src="img/CodeIcon.svg" alt="">
+            <p>4 anos como programdor</p>
+            <h1>Programador</h1>
+        </div>
+        <div id="project_card">
+            <img src="img/ProjectsIcon.svg" alt="">
+            <p>2 anos de</p>
+            <h1>Trabalho</h1>
+
+        </div>
+        <div id="design_card">
+            <img src="img/DesignIcon.svg" alt="">
+            <p>6 meses como design</p>
+            <h1>Design</h1>
+        </div>
+    </footer>
+</body>
+</html>
